@@ -73,5 +73,4 @@ A modern, full-stack job portal connecting students with recruiters, enhanced by
 -   **Uploads**: Test resume upload in Profile or Application Apply dialog.
 -   **AI Chat**: Click the floating bot icon on Student Dashboard.
 
-## License
-MIT
+
