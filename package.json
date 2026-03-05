@@ -1,0 +1,26 @@
+{
+    "name": "internsarthi-monorepo",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "husky": "^8.0.0",
+        "prettier": "^3.0.0",
+        "turbo": "^2.8.6",
+        "typescript": "^5.9.3"
+    },
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "packageManager": "npm@10.0.0"
+}
